@@ -1,7 +1,8 @@
-def looping
-loop do
-  puts "Never pass a school bus if it has flashing red lights"
+def lunchmenu(lunch_menu)
+lunch_menu.each do
+  |lunch_item|
+  lunch_item << "!"
 end
 end
 
-looping
+puts lunchmenu(["pizza", "sandwich", "sushi", "soup", "salad"])
